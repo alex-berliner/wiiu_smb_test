@@ -53,7 +53,7 @@ int smb_cmd(std::string cmd, std::string username, std::string password) {
     smb2_set_password(smb2, password.c_str());
     auto connect_err = smb2_connect_share(smb2, url->server, url->share, NULL);
     if (connect_err < 0) {
-        WHBLogPrintf("connect error:");
+        WHBLogPrintf("connect error: %d", connect_err);
         WHBLogPrintf("\t\tserver: %s", url->server);
         WHBLogPrintf("\t\tshare:  %s", url->share);
     } else {
