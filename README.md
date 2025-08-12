@@ -7,7 +7,8 @@ My goal is to be able to use libsmb2 on the Wii U to make it connect to a samba 
 
 The problem is that the Wii U version of libsmb2 uniquely seems to not be able to connect to any smb shares (for me). I get an error that it is not able to connect, which looks like this:
 
-<img width="418" height="204" alt="image" src="https://github.com/user-attachments/assets/29a1e3ac-68af-46bf-a2ac-a5263b85bfa5" />
+<img width="718" height="321" alt="image" src="https://github.com/user-attachments/assets/d97f4f5b-6098-4fd2-94b2-a69be96feffe" />
+
 
 # Testing
 ## Test Server Bringup
